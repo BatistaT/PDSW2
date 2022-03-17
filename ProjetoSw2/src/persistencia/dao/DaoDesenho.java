@@ -17,7 +17,6 @@ import java.util.List;
 
 /**
  *
- * @author admin
  */
 public class DaoDesenho extends Conexao {
     public static int last_genKey = 0;

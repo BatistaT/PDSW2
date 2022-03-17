@@ -9,7 +9,6 @@ import java.sql.Connection;
 
 /**
  *
- * @author admin
  */
 public class Conexao {
     protected Connection conexao;

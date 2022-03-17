@@ -11,7 +11,6 @@ import java.sql.SQLException;
 
 /**
  *
- * @author admin
  */
 public class ConexaoMySQL {
     private Connection conexao = null;

@@ -37,10 +37,9 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author Thiago Correa
  */
 public class FramePrincipal extends javax.swing.JFrame {
-    private static String TITLE = "Trabalho Projeto Sw II 2bim, 2019 - Prof Miguel Matrakas";
+    private static String TITLE = "Trabalho PDSW 2 - TBatista - Prof Miguel Matrakas";
 
     private ConexaoMySQL mysql
             = new ConexaoMySQL

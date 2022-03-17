@@ -18,7 +18,6 @@ import java.util.stream.Collectors;
 
 /**
  *
- * @author Thiago Correa
  */
 public class Ponto implements FormaGeometrica {
     public static final String NOME = "Ponto";

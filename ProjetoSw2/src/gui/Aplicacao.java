@@ -22,7 +22,7 @@ public class Aplicacao {
 	}
 	
 	private Aplicacao() {
-		//look and feel
+		
 		try {
 			for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
 				if ("Nimbus".equals(info.getName())) {

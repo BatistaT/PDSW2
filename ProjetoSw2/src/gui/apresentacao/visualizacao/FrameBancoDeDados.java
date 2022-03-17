@@ -22,7 +22,6 @@ import java.util.List;
 
 /**
  *
- * @author suga
  */
 public class FrameBancoDeDados extends javax.swing.JFrame {
     private  FramePrincipal pai;

@@ -7,7 +7,6 @@ package gui.apresentacao.visualizacao;
 
 /**
  *
- * @author suga
  */
 public class FrameTexto extends javax.swing.JFrame {
 

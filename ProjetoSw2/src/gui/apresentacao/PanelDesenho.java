@@ -23,7 +23,7 @@ import java.util.List;
 
 /**
  *
- * @author Tania
+
  */
 public class PanelDesenho extends javax.swing.JPanel implements MouseListener, MouseMotionListener,InterfaceOuvintePanels{
 //    private ListaEncadeada<Ponto> points;

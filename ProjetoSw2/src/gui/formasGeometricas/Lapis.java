@@ -20,7 +20,6 @@ import java.util.List;
 
 /**
  *
- * @author Thiago Correa
  */
 public class Lapis implements FormaGeometrica {
     public static final String NOME = "Lapis";

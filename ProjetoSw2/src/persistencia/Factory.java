@@ -174,7 +174,7 @@ public class Factory {
 
     public static FormaGeometrica criarFormaGeom_porTexto(String linha) {
 
-        //se linha eh lixo (ou apenas tem o nome sem pontos, ou eh lixo mesmo)
+   
         if (linha.length() < 3)
             return null;
 

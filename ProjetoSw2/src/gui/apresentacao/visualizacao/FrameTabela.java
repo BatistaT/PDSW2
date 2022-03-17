@@ -19,7 +19,6 @@ import javax.swing.table.TableRowSorter;
 
 /**
  *
- * @author suga
  */
 public class FrameTabela extends javax.swing.JFrame implements InterfaceOuvintePanels {
 
