@@ -9,9 +9,9 @@ import java.awt.event.MouseEvent;
 public class MaquinaDeEstados {
     public static final String DELETE = "Remover";
     public static String NONE = "NONE";
-    public static String ROTATE = "RotaÃ§Ã£o";
+    public static String ROTATE = "Rotação";
     public static String EIXO_DEFINE = "definindo_eixo";
-    public static String TRANSLATE  = "TranslaÃ§Ã£o";
+    public static String TRANSLATE  = "Translação";
 
 
 

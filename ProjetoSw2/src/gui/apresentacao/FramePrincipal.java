@@ -367,9 +367,9 @@ public class FramePrincipal extends javax.swing.JFrame {
 
 
         jMenu6.setText("Disco");
-        jMenu4.setText("Arquivo bin√°rio");
+        jMenu4.setText("Arquivo bin·rio");
 
-        menuItem_abrirBinaro.setText("Abrir Bin√°rio");
+        menuItem_abrirBinaro.setText("Abrir Bin·rio");
         menuItem_abrirBinaro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuItem_abrirBinarioActionPerformed(evt);
@@ -379,7 +379,7 @@ public class FramePrincipal extends javax.swing.JFrame {
 
         jMenu4.add(menuItem_abrirBinaro);
 
-        menuItem_salvarBinario.setText("Salvar Bin√°rio");
+        menuItem_salvarBinario.setText("Salvar Bin·rio");
         menuItem_salvarBinario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuItem_salvarBinarioActionPerformed(evt);
@@ -520,10 +520,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         newimg = image.getScaledInstance(30, 30,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         ((ImageIcon)btnPonto.getIcon()).setImage(newimg);
 
-        btnLapis.setIcon(new javax.swing.ImageIcon("imgs\\btnLapis.fw.png"));
-        image = ((ImageIcon)btnLapis.getIcon()).getImage();
-        newimg = image.getScaledInstance(30, 30,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
-        ((ImageIcon)btnLapis.getIcon()).setImage(newimg);
+      //  btnLapis.setIcon(new javax.swing.ImageIcon("imgs\\btnLapis.fw.png"));
+        //image = ((ImageIcon)btnLapis.getIcon()).getImage();
+       // newimg = image.getScaledInstance(30, 30,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
+       // ((ImageIcon)btnLapis.getIcon()).setImage(newimg);
 
         btnLinha.setIcon(new javax.swing.ImageIcon("imgs\\btnLinha.fw.png"));
         image = ((ImageIcon)btnLinha.getIcon()).getImage();
@@ -603,10 +603,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         labelSelectedTool.setText(Quadrado.NOME);
     }
 
-    private void btnLapisActionPerformed(ActionEvent evt) {
-        panelDesenho.getStates().setSelectedTool(Lapis.NOME);
-        labelSelectedTool.setText(Lapis.NOME);
-    }
+   /// private void btnLapisActionPerformed(ActionEvent evt) {
+     ///   panelDesenho.getStates().setSelectedTool(Lapis.NOME);
+      ///  labelSelectedTool.setText(Lapis.NOME);
+   /// }
 
     private void btnPontoActionPerformed(ActionEvent evt) {
         panelDesenho.getStates().setSelectedTool(Ponto.NOME);
